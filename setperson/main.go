@@ -18,13 +18,9 @@ func (v *Person) SetAge(newAge int) int{
 }
 
 func main()  {
-
-	s := make([]int,5)
-	fmt.Print(s)
-
-	//v:=Person{"Nikola",21}
-	//fmt.Println(v)
-	//v.SetName("Pesho")
-	//v.SetAge(19)
-	//fmt.Println(v)
+	v:=Person{"Nikola",21}
+	fmt.Println(v)
+	v.SetName("Pesho")
+	v.SetAge(19)
+	fmt.Println(v)
 }
