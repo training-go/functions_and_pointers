@@ -2,19 +2,19 @@ package main
 
 import "fmt"
 
-//Person represents the function found in the source code
+// Person represents the function found in the source code
 type Person struct {
-	Name string // name of the person we are reviewing
-	Age  int    // age of the person we are reviewing
+	Name string // Name is the name of the person we are reviewing
+	Age  int    // Age is the age of the person we are reviewing
 }
 
-//set the age of person
+// SetName sets the name of Person
 func (v Person) SetName(newName string) string {
 	v.Name = newName
 	return v.Name
 }
 
-//set the name of person
+// SetAge sets the age of Person
 func (v *Person) SetAge(newAge int) int {
 	v.Age = newAge
 	return v.Age
