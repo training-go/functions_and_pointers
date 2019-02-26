@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//Returns the sum of undefined number of numbers
+// Sum returns the sum of an undefined number of numbers
 func Sum(n ...int) int {
 	s := 0
 	for _, v := range n {
