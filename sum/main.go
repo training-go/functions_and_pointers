@@ -8,10 +8,3 @@ func Sum(n ...int) int {
 	}
 	return s
 }
-
-//func main() {
-//	fmt.Println(Sum(5, 9, 2, -5, 6))
-//	fmt.Println(Sum(2, 1, -222))
-//	s := []int{3, 6, 10, 4, -5, -9, 5, 77, 2, 5, 6, 21, 34, 52, -29}
-//	fmt.Println(Sum(s...))
-//}
