@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestSum(t *testing.T) {
+func TestSumOfRandomSlice(t *testing.T) {
 	if Sum(5, 9, 2, -5, 6) != 17 {
 		t.Errorf("Sum was not corrent, want %d, got %d", 17, Sum(5, 9, 2, -5, 6))
 	}

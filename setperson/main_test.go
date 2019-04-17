@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestPerson_SetName(t *testing.T) {
+func TestSetPersonName(t *testing.T) {
 	v := Person{"Nikola", 21}
 	v.SetName("Pesho")
 	if v.Name != "Nikola" {
@@ -10,7 +10,7 @@ func TestPerson_SetName(t *testing.T) {
 	}
 }
 
-func TestPerson_SetAge(t *testing.T) {
+func TestSetPersonAge(t *testing.T) {
 	v := Person{"Nikola", 21}
 	v.SetAge(25)
 	if v.Age != 25 {
